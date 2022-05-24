@@ -37,7 +37,7 @@ WASM 기반 인것 같으며, HTML에서 기존 파이썬의 문법을 그대로
   <py-script> # 시작
     print('hello world') # 이 태그 안에선 파이썬의 문법이 적용된다.
   </py-script> # 끝
-</body
+</body>
 ```
 
 <br>
@@ -47,7 +47,7 @@ WASM 기반 인것 같으며, HTML에서 기존 파이썬의 문법을 그대로
 ```html
 <body>
   <py-script>
-     from datetime import datetime # py-scrpit 태그 내에서 임포트 할 수 있다.
+     from datetime import datetime # py-script 태그 내에서 임포트 할 수 있다.
   </py-script>
 </body>
 ```
@@ -67,12 +67,12 @@ WASM 기반 인것 같으며, HTML에서 기존 파이썬의 문법을 그대로
 
 <br>
 
-***5) py-script 태그 내 src 삽입
+***5) py-script 태그 내 src 삽입***
 
 html 내에 코딩을 하면 안 될때엔 아래와 같이 사용 된다.
 
 ```html
-<body
+<body>
   <py-script src='./test.py'></py-script>
 </body>
 ```
