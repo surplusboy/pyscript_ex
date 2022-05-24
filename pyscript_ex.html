@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+ 
+    <head>
+        <meta charset="utf-8">
+        <title>Pyscript</title>
+        <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css" />
+        <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    </head>
+    <body>  
+        <main class = 'container'>
+            <div>
+                <input
+                    type = 'number'
+                    id = 'number_input'
+                    min = '1'
+                    max = '10'
+                    placeholder = '1 ~ 10 까지의 숫자 input'
+                />
+                <button id = 'input_btn' pys-onClick='test_func' >전송</button>
+            
+            </div>
+            <div>
+                
+            </div>
+            <h1 id='result'>Result</h1>
+        </main>
+        <py-script src='./py_script_test.py'></py-script>
+    </body>
+
+</html>
