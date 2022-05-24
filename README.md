@@ -106,4 +106,5 @@ input_btn.element.onclick = test_func
 
 https://github.com/pyscript/pyscript : 파이스크립트의 공식 링크
 
-https://www.youtube.com/watch?v=7meW2djIUYk : 기초 예제를 따라해볼 수 있
+https://www.youtube.com/watch?v=7meW2djIUYk : 기초 예제를 따라해볼 수 있음
+
